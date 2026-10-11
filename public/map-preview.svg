@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="title desc">
+  <title id="title">世界地图示意</title>
+  <desc id="desc">淡绿色的抽象大陆和一枚红色地点标记</desc>
+  <rect width="480" height="300" rx="18" fill="#edf2eb"/>
+  <g fill="#cbd9cd">
+    <path d="M58 83 84 59l46-8 32 13 15 24-18 14-6 20-21 8-9 23-19 9-14-13-24-4-8-19-22-8-11-19z"/>
+    <path d="m154 160 26 7 16 21-7 36-16 33-14-17-2-25-12-21z"/>
+    <path d="m223 72 20-13 26 7 8 14 29 3 17 17 29-2 18 14-8 17-28 2-14 16-28-3-12 15-25-9-7-23-23-9-16-20z"/>
+    <path d="m244 162 24 4 20 22-5 35-20 35-18-18-12-29 2-31z"/>
+    <path d="m353 206 29-8 31 12 12 19-18 13-31-3-22-13z"/>
+    <path d="m391 90 16-7 17 10-3 15-20 3-13-8z"/>
+  </g>
+  <path d="M330 97c-18 0-33 14-33 32 0 23 33 56 33 56s33-33 33-56c0-18-15-32-33-32Z" fill="#ad4f37"/>
+  <circle cx="330" cy="129" r="11" fill="#fffefa"/>
+  <path d="M33 263h414" stroke="#d7e1d7" stroke-width="2" stroke-linecap="round"/>
+</svg>

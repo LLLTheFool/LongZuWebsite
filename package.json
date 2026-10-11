@@ -1,0 +1,17 @@
+{
+  "name": "longzu-pilgrimage-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "npm run check && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.10",
+    "astro": "7.3.8",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteBase } from "../utils/paths";
+---
+
+<BaseLayout
+  title="龙族圣地巡礼｜世界地图"
+  description="浏览《龙族》中明确提及、能对应现实地图的地点。"
+>
+  <section class="intro">
+    <p class="eyebrow">DRAGON RAJA · PLACE GUIDE</p>
+    <h1>把《龙族》里的地点<br />放回世界地图</h1>
+    <p class="lead">
+      本网站提取了《龙族》中出现的大部分具体地名，并将其映射到世界地图上，方便大家进行快速定位。
+    </p>
+    <p class="runtime-note" id="runtime-state">页面内容可在无脚本时阅读。</p>
+    <a class="text-link" href={`${siteBase}about/`}>了解本站收录规则 <span aria-hidden="true">→</span></a>
+  </section>
+
+  <section class="preview" aria-labelledby="preview-title">
+    <div class="preview-copy">
+      <p class="eyebrow">世界地图</p>
+      <h2 id="preview-title">地点资料正在整理</h2>
+      <p>地图、搜索和地点列表将在后续阶段接入。首批地点会在资料核实后发布。</p>
+    </div>
+    <img src={`${siteBase}map-preview.svg`} alt="世界地图轮廓与一个地点标记的示意图" width="480" height="300" />
+  </section>
+</BaseLayout>
+
+<script src="../scripts/runtime.ts"></script>

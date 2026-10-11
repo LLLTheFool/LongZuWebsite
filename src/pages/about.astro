@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteBase } from "../utils/paths";
+---
+
+<BaseLayout
+  title="关于本站｜龙族圣地巡礼"
+  description="了解龙族圣地巡礼的地点收录标准与维护方式。"
+>
+  <article class="prose">
+    <p class="eyebrow">ABOUT</p>
+    <h1>关于本站</h1>
+    <p>本站面向《龙族》读者，整理小说中明确提及且能对应现实地图的具名地点。</p>
+    <p>纯虚构地点和无法对应现实地图的泛称不纳入收录。地点资料、坐标和关联作品会在发布前核实。</p>
+    <p>本站由个人维护，不提供账号、投稿或站内评论。发现资料问题后，可通过项目仓库的 Issues 反馈。</p>
+    <a class="text-link" href={siteBase}>返回首页 <span aria-hidden="true">→</span></a>
+  </article>
+</BaseLayout>
